@@ -1,0 +1,8 @@
+{
+  "ArtigoTeste": {
+    "type": "github",
+    "owner": "leonardomarciano",
+    "repo": "gostack-rocketseat-desafio02",
+    "desc": "Criando o seu primeiro HelloWorld com Deno"
+  }
+}

@@ -12,7 +12,7 @@ export default class DenoWebsiteApp extends App {
     return (
       <div className="h-screen">
         <Head>
-          <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+          <link rel="icon" href="/favicon.gif" />
         </Head>
         <Component {...pageProps} />
       </div>

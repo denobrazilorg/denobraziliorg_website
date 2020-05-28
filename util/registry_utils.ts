@@ -1,6 +1,6 @@
 /* Copyright 2020 the Deno authors. All rights reserved. MIT license. */
 
-import DATABASE from "../database.json";
+import DATABASE from "../articles_database.json";
 import { GithubEntry, GithubDatabaseEntry } from "./registries/github";
 import { DenoStdEntry, DenoStdDatabaseEntry } from "./registries/deno_std";
 import { URLEntry, URLDatabaseEntry } from "./registries/url";

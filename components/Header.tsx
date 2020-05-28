@@ -15,7 +15,7 @@ const Header = ({ subtitle }: { subtitle?: string }) => {
             <img className="h-10 w-auto sm:h-12 my-2" src="/logo.svg" alt="" />
             <div className="ml-5 flex flex-col justify-center">
               <div className="font-bold text-gray-900 leading-tight text-2xl sm:text-3xl tracking-tight">
-                Deno
+                Deno Brazil
               </div>
               {subtitle && (
                 <div className="font-normal text-sm sm:text-lg leading-tight tracking-tight">
@@ -48,9 +48,9 @@ const Header = ({ subtitle }: { subtitle?: string }) => {
           </button>
         </div>
         <div className="hidden lg:flex md:ml-10 items-end">
-          <Link href="/" as="/#installation">
+          <Link href="/articles">
             <a className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
-              Install
+              Artigos
             </a>
           </Link>
           <Link href="/[identifier]" as="/manual">
@@ -66,16 +66,16 @@ const Header = ({ subtitle }: { subtitle?: string }) => {
           </a>
           <Link href="/[identifier]" as="/std">
             <a className="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
-              Standard Library
+              Bibliotecas padrão
             </a>
           </Link>
           <Link href="/x">
             <a className="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
-              Third Party Modules
+              Módulos de terceiros
             </a>
           </Link>
           <a
-            href="https://github.com/denoland"
+            href="https://github.com/denobrazilorg"
             className="ml-10 text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
           >
             <span className="sr-only">GitHub</span>
@@ -150,9 +150,9 @@ const Header = ({ subtitle }: { subtitle?: string }) => {
                 </div>
               </div>
               <div className="px-2 pt-4 pb-3">
-                <Link href="/" as="/#installation">
+                <Link href="/articles">
                   <a className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">
-                    Install
+                    Artigos
                   </a>
                 </Link>
                 <Link href="/[identifier]" as="/manual">
@@ -168,12 +168,12 @@ const Header = ({ subtitle }: { subtitle?: string }) => {
                 </a>
                 <Link href="/[identifier]" as="/std">
                   <a className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">
-                    Standard Library
+                    Bibliotecas padrão
                   </a>
                 </Link>
                 <Link href="/x">
                   <a className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">
-                    Third Party Modules
+                    Módulos de terceiros
                   </a>
                 </Link>
               </div>

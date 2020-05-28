@@ -17,7 +17,7 @@ export default class DenoDocDocument extends Document {
 
   render() {
     return (
-      <Html lang="en">
+      <Html lang="pt-BR">
         <Head>
           <link rel="stylesheet" href="/fonts/inter/inter.css" />
         </Head>

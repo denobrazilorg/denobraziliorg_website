@@ -8,8 +8,8 @@ function LoadingPage() {
       <Head>
         <title>Deno</title>
         {metaDescription({
-          title: "Deno",
-          description: "Deno, a secure runtime for JavaScript and TypeScript.",
+          title: "Deno Brazil",
+          description: "Deno, um runtime seguro para JavaScript e TypeScript.",
           image: "https://deno.land/v1_wide.jpg",
         })}
       </Head>
